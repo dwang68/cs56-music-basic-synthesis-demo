@@ -6,6 +6,9 @@ A basic demo of some simple synthesis starting with sine waves
 
 ![](http://i.imgur.com/xk4Nk1c.png)
 
+# NOTE
+	The formats for YellowSub.txt, MaryHadALittleLamb.txt, and Default.txt are old and do not currently work as they are in incompatible format and need to be updated to use either midi, scientific name, or frequency for their pitch. See http://en.wikipedia.org/wiki/Piano_key_frequencies for reference. Keep in mind that the program has been written to support octaves 1-7, but can easily be changed by editing the bounds of the for loops in FrequencyMap.java.
+	
 # Melody GUI Example
 	ant melodyGUI
 
@@ -19,7 +22,7 @@ GUI is simply a skeleton, and is not functional
 
 Replace [filename] with any text file in build/resources. Ex:
 
-	 ant melody -Darg6=YellowSub.txt
+	 ant melody -Darg6=frereJacques.txt
 
 This uses ADSR presets: 
 * attack: 0.1
@@ -30,6 +33,8 @@ This uses ADSR presets:
 
 # Melody Run of YellowSub, MaryHadALittleLamb, and Default
 	 ant melodyAll
+	 
+	 Note: Will not work until these files are converted to the new pitch format. See the first section "NOTE".
 
 This uses ADSR presets: 
 * attack: 0.1
@@ -43,7 +48,7 @@ This uses ADSR presets:
 	
 Replace each component of -Darg with the desired value. Ex:
 
-	 ant melodyADSR_Options -Darg0=0.1 -Darg1=0.2 -Darg2=0.3 -Darg3=0.4 -Darg4=0.5 -Darg6=YellowSub.txt
+	 ant melodyADSR_Options -Darg0=0.1 -Darg1=0.2 -Darg2=0.3 -Darg3=0.4 -Darg4=0.5 -Darg6=frereJacques.txt
 
 Note that -Darg5 is skipped, as it is set to '1' in build.xml
 
