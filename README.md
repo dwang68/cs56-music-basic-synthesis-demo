@@ -7,7 +7,8 @@ A basic demo of some simple synthesis starting with sine waves
 ![](http://i.imgur.com/xk4Nk1c.png)
 
 # NOTE
-	The formats for YellowSub.txt, MaryHadALittleLamb.txt, and Default.txt are old and do not currently work as they are in incompatible format and need to be updated to use either midi, scientific name, or frequency for their pitch. See http://en.wikipedia.org/wiki/Piano_key_frequencies for reference. Keep in mind that the program has been written to support octaves 1-7, but can easily be changed by editing the bounds of the for loops in FrequencyMap.java.
+
+The formats for YellowSub.txt, MaryHadALittleLamb.txt, and Default.txt are old and do not currently work as they are in incompatible format and need to be updated to use either midi, scientific name, or frequency for their pitch. See http://en.wikipedia.org/wiki/Piano_key_frequencies for reference. Keep in mind that the program has been written to support octaves 1-7, but can easily be changed by editing the bounds of the for loops in FrequencyMap.java.
 	
 # Melody GUI Example
 	ant melodyGUI
