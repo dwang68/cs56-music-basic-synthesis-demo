@@ -34,8 +34,8 @@ This uses ADSR presets:
 
 # Melody Run of YellowSub, MaryHadALittleLamb, and Default
 	 ant melodyAll
-	 
-	 Note: Will not work until these files are converted to the new pitch format. See the first section "NOTE".
+
+Note: Will not work until these files are converted to the new pitch format. See the first section "NOTE".
 
 This uses ADSR presets: 
 * attack: 0.1
